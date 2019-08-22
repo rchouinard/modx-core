@@ -40,7 +40,12 @@ function gatherReleases()
         $page++;
     } while (count($response) > 0);
 
-    return $releases;
+    return array_filter($releases, function ($release) {
+        $version = ltrim($release['name'], 'v');
+        return version_compare($version, '2.6.0', '>=');
+    });
 }
 
-fwrite(STDOUT, json_encode(gatherReleases(), JSON_PRETTY_PRINT));
+if (php_sapi_name() === 'cli') {
+    fwrite(STDOUT, json_encode(gatherReleases(), JSON_PRETTY_PRINT));
+}
