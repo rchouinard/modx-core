@@ -1,5 +1,6 @@
 {
     "name": "rchouinard/modx-core",
+    "type": "modx-core",
     "description": "MODX Revolution - Content Management Framework",
     "homepage": "https://modx.com/",
     "version": "@@VERSION@@",
@@ -35,14 +36,5 @@
         "chat": "https://modx.org/",
         "source": "https://modx.com/modxcms/revolution/",
         "docs": "https://rtfm.modx.com/revolution/2.x/"
-    },
-    "dist": {
-        "url": "@@ZIP_URL@@",
-        "type": "zip"
-    },
-    "source": {
-        "url": "",
-        "type": "git",
-        "reference": "@@VERSION@@"
     }
 }
