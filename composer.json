@@ -3,7 +3,7 @@
     "type": "modx-core",
     "description": "MODX Revolution - Content Management Framework",
     "homepage": "https://modx.com/",
-    "version": "v2.7.0-pl",
+    "version": "v2.7.1-pl",
     "license": "GPL-2.0-or-later",
     "authors": [
         {
@@ -38,12 +38,12 @@
         "docs": "https://rtfm.modx.com/revolution/2.x/"
     },
     "dist": {
-        "url": "https://modx.com/download/direct/modx-2.7.0-pl.zip",
+        "url": "https://modx.com/download/direct/modx-2.7.1-pl.zip",
         "type": "zip"
     },
     "source": {
         "url": "https://github.com/modxcms/revolution.git",
         "type": "git",
-        "reference": "v2.7.0-pl"
+        "reference": "v2.7.1-pl"
     }
 }
